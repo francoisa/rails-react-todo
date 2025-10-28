@@ -24,11 +24,16 @@ npm install react react-dom
 bin/rails generate controller Home index
 ```
 
-4. Rails also has several scripts called rake tasks that perform various actions.  The task `javascript:install:esbuild` installs esbuild which is used to deliver the javascript to the rails application.
+4. To build the React components.
+
+```sh
+npm run build
+```
+
+5. Rails also has several scripts called rake tasks that perform various actions.  The task `javascript:install:esbuild` installs esbuild which is used to deliver the javascript to the rails application.
 
 
 ```sh
 bin/rails javascript:install:esbuild
 ```
-
 

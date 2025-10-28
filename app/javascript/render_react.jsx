@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (container) {
     const root = createRoot(container);
-    root.render(<Todo/>);
+    root.render(<Todo name="test"/>);
   }
 });
